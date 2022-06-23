@@ -11,11 +11,9 @@ btn.addEventListener("click",async (e) => {
 const makeCard = (shows) => {
     for (let result of shows) {
         const newImg = document.createElement('img')
+        newImg.className = "show-img"
         newImg.src = result.show.image.medium
         document.body.append(newImg)
-        const newSpan = document.createElement('span')
-        newSpan.innerText = result.show.name
-        document.body.append(newSpan)
     }
 
 }
