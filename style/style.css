@@ -76,3 +76,15 @@
     margin-left: 12%;
     margin-top: 1em;
 }
+
+@media (max-width:914px) and (min-width:412px) {
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-content: space-around;
+        background-color: #05668d;
+        list-style: none;
+        padding: 1em;
+    }
+}
