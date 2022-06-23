@@ -87,4 +87,9 @@
         border-radius: 0.3em;
         cursor: pointer;
     }
+    .show-img{
+        border: 3px solid black;
+        margin-left: 15%;
+        margin-top: 1em;
+    }
 }
