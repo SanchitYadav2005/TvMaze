@@ -1,12 +1,11 @@
 const btn = document.querySelector(".search-btn")
-const input = document.querySelector('#search')
+const inputFeild = document.querySelector('.search')
 
 btn.addEventListener("click",async (e) => {
     e.preventDefault();
-
-    const res = await axios.get(` https://api.tvmaze.com/search/shows?q=${input.value}`)
+    const res = await axios.get(` https://api.tvmaze.com/search/shows?q=${inputFeild.value}`)
     makeCard(res.data)
-    input.value = "";
+    inputFeild.value = "";
 })
 
 const makeCard = (shows) => {

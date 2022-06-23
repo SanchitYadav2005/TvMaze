@@ -43,7 +43,7 @@
     justify-content: center;
 }
 
-.show-search #search{
+.show-search .search{
     font-size: 3em;
     padding: 0em 1em 0em 0.1em;
     margin-right: 0.2em;
@@ -71,3 +71,6 @@
     border-radius: 0.3em;
 }
 
+img{
+    border: 3px solid black;
+}
