@@ -14,6 +14,7 @@ const makeCard = (shows) => {
         newImg.className = "show-img"
         newImg.src = result.show.image.medium
         document.body.append(newImg)
+
     }
 
 }
