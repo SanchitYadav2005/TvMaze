@@ -89,7 +89,10 @@
     }
     .show-img{
         border: 3px solid black;
-        margin-left: 20em;
+        margin-left: 20%;
         margin-top: 1em;
+    }
+    #main-img{
+        margin-left: 40%;
     }
 }
